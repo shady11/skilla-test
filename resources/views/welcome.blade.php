@@ -30,10 +30,10 @@
     </body>
 
     <script>
-        const token = '1|ObhGgZG4rGzngybXETDS341RTFc68rPdXncnYfVT';
-        const startDate = '2023-06-01';
-        const endDate = '2023-06-18';
-        const filterField = 0;
+        const token = '<token>';
+        const startDate = '<YYYY-MM-DD>';
+        const endDate = '<YYYY-MM-DD>';
+        const filterField = '<целое число>';
 
         fetch('http://localhost:8000/api/tasks?start_date=' + startDate + '&end_date=' + endDate + '&filter_field=' + filterField, {
             headers: {
